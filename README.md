@@ -16,5 +16,5 @@ Create a `credentials.json` based on the example.
 `node pokemon`  
 Prints all Pokemon in alphabetical order, ranked by IV total then CP.
 
-`node pokemon <pokemon name>`
-Printsa all of that kind of Pokemon in alphabetical order, ranked by IV total then CP.
+`node pokemon <pokemon name>`  
+Prints all of that kind of Pokemon in alphabetical order, ranked by IV total then CP.
