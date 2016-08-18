@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "console.table": "^0.7.0",
     "jsonfile": "^2.3.1",
     "pokemon-go-api": "https://github.com/carldanley/node-pokemon-go-api.git#e8cc1092a2eae93c3e6b82d28850ff6bf00eb6b0"
   }

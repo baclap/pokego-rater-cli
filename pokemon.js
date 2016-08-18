@@ -1,8 +1,8 @@
-// internal dependencies
 const api = require('pokemon-go-api')
 const pokemonFactory = require('./pokemon-factory')
 const jsonfile = require('jsonfile')
 const credsFile = './credentials.json'
+require('console.table')
 
 const creds = jsonfile.readFileSync(credsFile)
 
@@ -63,7 +63,7 @@ api.login(creds.username, creds.password, creds.provider)
             return 0;
         })
         // print out
-        console.log(allPokemon)
+        console.table(allPokemon)
     })
     .catch((error) => {
         console.log('error', error.stack);
