@@ -1,7 +1,7 @@
 {
   "name": "pokego-rater-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "Command line tool to get actual IV values of your Pokemon in Pokemon Go.",
   "main": "pokemon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
