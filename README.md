@@ -4,8 +4,9 @@ Command line tool to get actual IV values of your Pokemon in Pokemon Go.
 
 ## Setup
 
-Create a `credentials.json` based on the example.
+First run `npm install` to install dependencies. Then create a `credentials.json` based on the example.
 
+Credentials Fields:
 - `provider` - must be either `google` or `pokemon-club`
 - `location` - mostly irrelevant for now but required to be there
 - `username` - email address associated with the google/pokemon-club account
