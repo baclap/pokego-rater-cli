@@ -1,7 +1,7 @@
 {
   "name": "pokego-rater-cli",
   "homepage": "https://github.com/baclap/pokego-rater-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Command line tool to get actual IV values of your Pokemon in Pokemon Go.",
   "main": "pokemon.js",
   "scripts": {
